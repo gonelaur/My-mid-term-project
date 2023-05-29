@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+  --primary: #072ac8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------ INDEX html ------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------ Splash page ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------ CIRCULAR ANIMATION ------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Navbar ------------------------------ */
+
+/* CSS for navigation bar */
+
+.navbar {
+  background-color: #f8f8f8;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+}
+
+.main-nav li {
+  margin: 0 10px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-selected {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* CSS mobile responsive */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navbar-toggle {
+    order: 1;
+    cursor: pointer;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .main-nav.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-nav li {
+    margin: 10px 0;
+  }
+
+  .burger {
+    color: #333;
+    font-size: 18px;
+  }
+
+  /* Estilos para el menú desplegable */
+  .main-nav.show {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-links {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Header ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Partners ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Recent projects ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Client reviews ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Services ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Questions form ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Footer ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* -------------------------------------------------------------------------- */
+/* ------------------------------ PROJECT html ------------------------------ */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------ Project main ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ CONTACT-US html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* ------------------------------ Form ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ About html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* Your CSS code goes here */
+
+/* --------------------------------------------------------------------------- */
+/* ------------------------------ MEDIA QUERIES ------------------------------ */
+/* --------------------------------------------------------------------------- */
+
+/* ------------------------- Smaller than 990px (tablet) ------------------------- */
+@media (max-width: 990px) {
+  /* Your CSS code goes here */
+}
+
+/* ------------------------- Smaller than 766px (mobile) ------------------------- */
+@media (max-width: 766px) {
+  /* Your CSS code goes here */
+}
+
+/* ------------------------------ Hamburguer menu ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Alert ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Sticky scroll bar ------------------------------ */
+
+/* Your CSS code goes here */
